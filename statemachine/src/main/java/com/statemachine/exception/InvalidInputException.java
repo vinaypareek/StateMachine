@@ -1,0 +1,11 @@
+package com.statemachine.exception;
+
+public class InvalidInputException extends Exception {
+
+	private static final long serialVersionUID = -1022268726742290222L;
+
+	public InvalidInputException(String message) {
+		super(message);
+	}
+
+}
